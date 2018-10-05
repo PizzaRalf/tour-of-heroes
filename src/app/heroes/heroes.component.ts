@@ -9,7 +9,7 @@ import { Hero } from '../Hero';
   // location of component's private css styles
   styleUrls: ['./heroes.component.css']
 })
-export class HeroesComponent implements OnInit { // "export" nessesary to import it later e.g in AppModule
+export class HeroesComponent implements OnInit { // "export" necessary to import it later e.g in AppModule
 
   hero: Hero = {
     id: 1,
